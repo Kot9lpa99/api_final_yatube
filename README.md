@@ -1,6 +1,12 @@
 # API для Yatube
-##### Апишка для соцсети Yatube. Через нее можно делать запросы к Постам, Группам, Коментам и Фоловерам. 
-##### Возвращает данные в JSON.
+###### Апишка для соцсети Yatube. Через нее можно делать запросы к Постам, Группам, Коментам и Фоловерам. 
+###### Возвращает данные в JSON.
+***
+#### Используемые технологии и библиотеки:
+- [Python 3.7.0](https://www.python.org/doc/)
+- [Django 2.2.16](https://docs.djangoproject.com/en/4.1/releases/2.2.16/)
+- [Django REST framework 3.12.4](https://www.django-rest-framework.org/)
+- [Simple JWT 4.7.2](https://django-rest-framework-simplejwt.readthedocs.io/en/latest/)
 ***
 #### Для начала необходимо клонировать репозиторий:
 ```
@@ -89,3 +95,5 @@ http://127.0.0.1:8000/api/v1/posts/1/comments/
 ```
 http://127.0.0.1:8000/redoc/
 ```
+#### Автор: 
+##### Дубихин Егор
